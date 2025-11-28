@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GamerWings</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+    }
+    header {
+      background: #222;
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 10px;
+      background: #181818;
+    }
+    nav a {
+      color: #0af;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: url('https://i.imgur.com/2yaf2cM.jpeg') center/cover no-repeat;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      text-shadow: 0 0 10px #000;
+    }
+    .section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      margin-top: 40px;
+    }
+    textarea {
+      background: #222;
+      color: #fff;
+      border: 1px solid #0af;
+    }
+    button:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <header>GAMERWINGS</header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#videos">YouTube</a>
+    <a href="#suggestions">Suggestions</a>
+    <a href="#python-games">Python Games</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Welcome to GamerWings</h1>
+    <p>Your official hub for videos, games, and chaos!</p>
+  </div>
+
+  <div class="section" id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p><strong>Owner of Killscape & Laser Gunners</strong></p>
+      <p><strong>Owner of GamerWings Club and DevFoundry (Roblox groups)</strong></p>
+
+      <p>I’m a small Roblox game developer who loves building chaos-filled experiences. I worked on <strong>Laser Gunners</strong> with retnoobx, and I created <strong>Killscape</strong> solo — except for the awesome art by two_time1422 and the upcoming OST.</p>
+
+      <p><strong>Subscriber Milestones:</strong><br>
+      10☑️ 20☑️ 30☑️ 40☑️ 50☑️ 60☑️ 70☑️ 80☑️ 100☑️ 110☑️ 120☑️ 130☑️ 150☑️ 200☑️ 500❎ 1000❎</p>
+
+      <p><strong>Random Facts About Me:</strong></p>
+      <ul>
+        <li>Australian — born in Victoria</li>
+        <li>Favourite singers/rappers: Eminem & NF</li>
+        <li>Favourite pie: Chunky Beef</li>
+        <li>Favourite food: Sushi</li>
+        <li>Favourite Roblox games: Forsaken / Dispatch: Police Simulator</li>
+        <li>Started Roblox in 2020</li>
+        <li>Never been arrested (obviously, why would I?)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section" id="videos">
+    <h2>YouTube Channel</h2>
+    <div class="card">
+      <p><strong>Channel Name:</strong> GamerWings</p>
+      <p><strong>Subscribers:</strong> 227</p>
+      <p><strong>Content Style:</strong> Roblox gameplay, chaos, memes, game dev progress, and random hilarious moments.</p>
+      <p><strong>Upload Themes:</strong></p>
+      <ul>
+        <li>Roblox games like Forsaken, Dispatch, and your own creations</li>
+        <li>Updates on Killscape & Laser Gunners</li>
+        <li>Game development sneak peeks</li>
+        <li>Funny shorts & experimental videos</li>
+      </ul>
+      <p><strong>Banner:</strong> Features your cat (allowed on channel art)</p>
+      <p><strong>Your Rules:</strong> No face reveal, last name allowed</p>
+      <p><a href="#" style="color:#0af; font-weight:bold;">Visit The GamerWings Channel</a></p>
+    </div>
+  </div>
+
+  <div class="section" id="suggestions">
+    <h2>Video Suggestion Box</h2>
+    <div class="card">
+      <p>Got an idea for a new GamerWings video? Drop it here!</p>
+      <form action="mailto:tassiecravingstasmainina@gmail.com" method="post" enctype="text/plain">
+        <label>Your Idea:<br>
+          <textarea name="suggestion" style="width:100%; height:120px; border-radius:8px; padding:10px;"></textarea>
+        </label>
+        <br><br>
+        <button type="submit" style="padding:10px 20px; border:none; border-radius:8px; background:#0af; color:#000; font-weight:bold; cursor:pointer;">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="section" id="python-games">
+    <h2>My Python Games</h2>
+    <div class="card">
+      <p>I also make Python games using Thonny and Pygame! Here are some of the ones I'm most proud of:</p>
+      <ul>
+        <li><strong>Pinball Project</strong> — A custom-built pinball machine game made for my Pop (Ace).</li>
+        <li><strong>Pong Remake</strong> — A fast, clean, custom-built version of the classic.</li>
+        <li><strong>Surprise Games</strong> — Random idea generators and mini-games made just for fun.</li>
+      </ul>
+      <p>I use <strong>Thonny</strong> for scripting and <strong>Pygame</strong> for graphics and movement. More Python games coming soon!</p>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 GamerWings — Made with chaos and wings
+  </footer>
+</body>
+</html>
